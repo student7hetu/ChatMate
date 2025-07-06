@@ -3,7 +3,7 @@ import gallery_icon from './gallery_icon.svg'
 import help_icon from './help_icon.png'
 import logo_icon from './logo_icon.svg'
 import logo_big from './logo_big.svg'
-import logo from './logo.png'
+import logo from './LogoNew.png'
 import profile_richard from './profile_richard.png'
 import profile_alison from './profile_alison.png'
 import profile_enrique from './profile_enrique.png'
@@ -14,7 +14,7 @@ import send_button from './send_button.svg'
 import menu_icon from './menu_icon.png'
 import arrow_icon from './arrow_icon.png'
 import code from './code.svg'
-import bgImage from './bgImage.svg'
+// import bgImage from './bgImage.png'
 import pic1 from './pic1.png'
 import pic2 from './pic2.png'
 import pic3 from './pic3.png'
@@ -34,7 +34,7 @@ const assets = {
     menu_icon,
     arrow_icon,
     code,
-    bgImage,
+    // bgImage,
     profile_martin
 }
 

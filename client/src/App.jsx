@@ -1,11 +1,19 @@
-import React from 'react'
+import React from 'react';
+import { Route, Routes } from 'react-router-dom';
+import HomePage from './pages/HomePage';
+import ProfilePage from './pages/ProfilePage';
+import LoginPage from './pages/LoginPage';
 
 const App = () => {
   return (
-    <div>
-      <h1 className='text-3xl text-blue-600' >App</h1>
+    <div className="w-full h-screen bg-[url('/bgImage.png')] bg-cover bg-no-repeat bg-center">
+      <Routes>
+        <Route path='/' element={<HomePage />} />
+        <Route path='/login' element={<LoginPage />} />
+        <Route path='/profile' element={<ProfilePage />} />
+      </Routes>
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;
